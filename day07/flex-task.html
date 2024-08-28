@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex실습</title>
+  <style>
+    #flex-wrap{
+      display: flex;
+      flex-direction: column; /* flex는 부모가 자식을 결정하는 속성이기 때문에 부모에 써줘야함 */
+      align-items: center;
+      justify-content: center;
+      margin: 200px auto;
+      border: 5px solid black;
+      width: 250px;
+      height: 350px;
+    }
+
+    #flex-wrap div.box{
+      width: 200px; height: 100px; margin: 4px; background-color: slateblue;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- 이미지대로 구현하기 -->
+  <div id="flex-wrap">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>가상 클래스 선택자(:), 가상 요소 선택자(::)</title>
+
+  <style>
+
+    /* a{
+      text-decoration: none;
+    }
+    
+    a:link {
+      color: red;
+    }
+
+    a:visited {
+      color: green;
+    }
+
+    a:hover {
+      color: blue;
+      text-decoration: underline;
+    }
+    /* #container::after  */
+    /*#container::before {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      content: '';
+      display: block;
+    } */
+     
+    
+  </style>
+  <!--
+    외부 스타일을 이용해서
+    container에게 스타일
+    배경 컬러를 yellow, border를 1px solid black; 
+    -->
+</head>
+<body>
+  <!-- 
+    가상 클래스(:)
+    :link - 방문한 적이 없는 링크
+    :visited - 방문한 적이 있는 링크
+    :hover - 마우스를 롤오버 했을 때
+    :activate - 마우스를 클릭 했을 때
+   -->
+
+  <!--
+    <a href="https://www.coopang.com">쿠팡으로 이동</a>
+  <a href="https://www.naver.com">네이버로 이동</a>
+   -->
+
+  <div id="container">나 여기 컨테이너!!😎</div>
+  <p>다른 태그</p>
+</body>
+</html>
