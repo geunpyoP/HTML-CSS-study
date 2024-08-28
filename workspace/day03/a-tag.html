@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a태그</title>
+</head>
+<body>
+  <!--절대경로 -->
+  <!-- a태그 활용 -->
+  <!-- a태그 : 주소 참조 -->
+  <!-- 
+    target : a태그가 href를 열었을 때 어떻게 열 지 결정하는 속성
+    1._self : 현재 페이지(기본값)
+    2._blank : 새 탭  (제일 자주쓰임)
+    3._parent : 부모 페이지로, iframe 등이 사용된 환경에서 쓰인다.  (iframe은 잘 안쓰임)
+    4._top : 최상위 페이지로, iframe 등이 사용된 환경에서 쓰인다.   (iframe은 잘 안쓰임)
+  -->
+  <!-- 속성이름="값" 속성이름="값" 속성이름="값" 속성이름="값" -->
+  <!-- <a href="https://www.naver.com" target="_blank">네이버로 이동</a> -->
+
+  <!-- 북마크기능, 페이지 내 이동 -->
+   <a href="#nav">목적지로 이동!</a>
+   <!-- #뒤에 이동하고자 하는 id값 입력 -->
+  <div style="height: 1000px; background-color: red;">div1</div>
+  <div style="height: 1000px; background-color: blue;">div2</div>
+  <div style="height: 1000px; background-color: green;">div3</div>
+  <div style="height: 1000px; background-color: orange;">div4</div>
+  <div id="nav">목적지!</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+#grid-task02{
+  display: grid;
+  grid-template:
+  "img01 img02 img03 img04" 100px
+  "img05 img02 img03 img04" 100px
+  "img06 img02 img03 img11" 100px
+  "img06 img08 img10 img11" 100px
+  "img07 img08 img10 img12" 100px
+  "img07 img09 img10 img12" 100px
+  / 1fr 1fr 1fr 1fr
+  ;
+  gap: 4px;
+}
+
+.img01 {
+  grid-area: img01;
+  background: url("https://cdn.pixabay.com/photo/2022/01/13/00/09/austria-6934186_1280.jpg") no-repeat center/cover;
+}
+
+.img02 {
+  grid-area: img02;
+  background: url("https://cdn.pixabay.com/photo/2024/05/24/19/06/bird-8785666_640.jpg") no-repeat center/cover;
+}
+
+.img03 {
+  grid-area: img03;
+  background: url("https://cdn.pixabay.com/photo/2023/12/15/03/11/basket-to-the-sea-8449952_640.jpg") no-repeat center/cover;
+}
+
+.img04 {
+  grid-area: img04;
+  background: url("https://cdn.pixabay.com/photo/2016/11/02/11/08/monk-1791113_640.jpg") no-repeat center/cover;
+}
+
+.img05 {
+  grid-area: img05;
+  background: url("https://cdn.pixabay.com/photo/2024/02/24/00/05/concert-hall-8593024_640.jpg") no-repeat center/cover;
+}
+
+.img06 {
+  grid-area: img06;
+  background: url("https://cdn.pixabay.com/photo/2023/10/17/09/01/seagull-8320687_640.jpg") no-repeat center/cover;
+}
+
+.img07 {
+  grid-area: img07;
+  background: url("https://cdn.pixabay.com/photo/2020/09/27/03/38/woman-5605529_640.jpg") no-repeat center/cover;
+}
+
+.img08 {
+  grid-area: img08;
+  background: url("https://cdn.pixabay.com/photo/2024/02/20/11/26/waves-8585265_640.jpg") no-repeat center/cover;
+}
+
+.img09 {
+  grid-area: img09;
+  background: url("https://cdn.pixabay.com/photo/2017/08/07/04/51/water-2600008_640.jpg") no-repeat center/cover;
+}
+
+.img10 {
+  grid-area: img10;
+  background: url("https://cdn.pixabay.com/photo/2024/07/08/05/41/girl-8880144_640.png") no-repeat center/cover;
+}
+
+.img11 {
+  grid-area: img11;
+  background: url("https://cdn.pixabay.com/photo/2023/10/19/15/18/mountains-8326967_640.jpg") no-repeat center/cover;
+}
+
+.img12 {
+  grid-area: img12;
+  background: url("https://cdn.pixabay.com/photo/2024/07/31/11/20/pattern-8934361_640.jpg") no-repeat center/cover;
+}

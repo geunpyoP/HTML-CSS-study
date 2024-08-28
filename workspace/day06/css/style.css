@@ -1,0 +1,32 @@
+#banana {
+  color: yellow;
+}
+
+.apple{
+  color: green;
+}
+
+.melon {
+  color: brown;
+}
+
+p {
+  color: violet;
+}
+
+div {
+    color:blue;
+}
+
+/* * {
+  color: orange !important;   
+} */
+/* !important가 있으면 우선순위가 1순위로 됨. 필요할때만 써야됨!!
+                                   !important가 2개 이상일때는 우선순위가 높은애 먼저 적용시켜줌*/
+
+
+/* 요약 
+      1) id > class > tag > *
+      2) 같은 조건이면 나중에 선언된 스타일이 적용된다.
+      3) 같은 조건이면 1) 우선순위대로 적용된다.
+*/
